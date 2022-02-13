@@ -1,0 +1,14 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">Transport 1.0v</string>
+    <string name="firma">Firma</string>
+    <string name="klient_indywidualny">Klient indywidualny</string>
+    <string name="art">Art</string>
+    <string name="dodaj_art">Dodaj Art:</string>
+    <string name="setting1">Setting</string>
+    <string name="setting2" tools:ignore="DuplicateDefinition">Setting</string>
+    <string name="setting3" tools:ignore="DuplicateDefinition">Setting</string>
+    <string name="wyszukaj_po_nip">Wyszukaj po NIP</string>
+    <string name="dane_klienta_firmy">Dane klienta firmy</string>
+    <string name="imie">Imie</string>
+    <string name="nazwisko">Nazwisko</string>
+</resources>

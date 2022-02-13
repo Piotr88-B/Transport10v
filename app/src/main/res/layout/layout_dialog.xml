@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools ="http://schemas.android.com/tools"
+    android:layout_height="200dp"
+    android:layout_width="360dp"
+    tools:context=".MainActivity">
+
+<EditText
+android:id="@+id/editTextAdminName"
+android:layout_width="match_parent"
+android:layout_height="40dp"
+android:layout_marginStart="19dp"
+android:layout_marginEnd="19dp"
+android:drawableStart="@drawable/ic_login1"
+android:background="@drawable/item_insert"
+android:hint="Username" />
+
+<EditText
+android:id="@+id/editTextAdminPassword"
+android:inputType="textPassword"
+android:layout_width="match_parent"
+android:layout_height="40dp"
+android:layout_marginStart="19dp"
+android:layout_marginTop="50dp"
+android:layout_marginEnd="19dp"
+android:drawableStart="@drawable/ic_pass"
+android:background="@drawable/item_insert"
+android:hint="Password" />
+
+</RelativeLayout>

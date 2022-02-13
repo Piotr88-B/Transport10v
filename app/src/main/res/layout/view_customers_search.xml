@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="match_parent"
+android:layout_height="100dp"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+app:cardElevation="1dp"
+app:cardUseCompatPadding="true"
+app:contentPadding="3dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="90dp">
+
+        <ImageButton
+            android:id="@+id/btnEditBuis"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="10dp"
+            android:background="@color/white"
+            android:src="@drawable/ic_baseline_edit_24" />
+        <ImageButton
+            android:id="@+id/btmDelBuis"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="50dp"
+            android:layout_marginStart="10dp"
+            android:background="@color/white"
+            android:src="@drawable/ic_delate_art" />
+
+        <ImageButton
+            android:id="@+id/btnOpcja1"
+            android:layout_width="35dp"
+            android:layout_height="46dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="6dp"
+            android:background="@color/white"
+            android:onClick="show"
+            android:src="@drawable/ic_akcept_customers" />
+
+
+        <TextView
+            android:id="@+id/v_imie"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="5dp"
+            android:text="Imie: "
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/c_name_c1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="90dp"
+            android:layout_marginTop="5dp"
+            android:text="Imie" />
+
+        <TextView
+            android:id="@+id/c_last_c1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="2dp"
+            android:layout_marginTop="5dp"
+            android:layout_toEndOf="@+id/c_name_c1"
+            android:text="Name2" />
+
+        <TextView
+            android:id="@+id/c_town"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="26dp"
+            android:text="Miejscowość: "
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/c_town_c1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="1dp"
+            android:layout_marginTop="26dp"
+            android:layout_toEndOf="@+id/c_town"
+            android:text="misato" />
+
+        <TextView
+            android:id="@+id/c_cod1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="26dp"
+            android:layout_toEndOf="@+id/c_town_c1"
+            android:text="nrcode" />
+
+        <TextView
+            android:id="@+id/c_street"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="47dp"
+            android:text="Ulica: "
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/c_street_c1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="1dp"
+            android:layout_marginTop="47dp"
+            android:layout_toEndOf="@+id/c_street"
+            android:text="Nazwaulicy" />
+
+        <TextView
+            android:id="@+id/c_nrd_c1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="3dp"
+            android:layout_marginTop="47dp"
+            android:layout_toEndOf="@+id/c_street_c1" />
+
+        <TextView
+            android:id="@+id/c_tel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="68dp"
+            android:text="Nr tel: "
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/c_tel_c1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="1dp"
+            android:layout_marginTop="68dp"
+            android:layout_toEndOf="@+id/c_tel" />
+
+        <TextView
+            android:id="@+id/c_nip_c1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="215dp"
+            android:layout_marginTop="68dp"
+            android:text="Nipwpis" />
+
+        <TextView
+            android:id="@+id/c_nip"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="90dp"
+            android:layout_marginTop="68dp"
+            android:layout_toEndOf="@+id/c_tel"
+            android:text="NIP: "
+            android:textStyle="bold" />
+
+
+    </RelativeLayout>
+
+
+</LinearLayout>
